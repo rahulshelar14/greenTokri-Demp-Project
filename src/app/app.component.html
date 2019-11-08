@@ -1,0 +1,17 @@
+<input type="text" pTooltip="Enter your username">
+
+<div class="ui-g ui-fluid">
+    <div class="ui-g-12 ui-md-4">
+        <h3>Basic</h3>
+        <p-calendar [(ngModel)]="date1" [showTime]="true" [showIcon]="true"></p-calendar>
+    </div>
+</div>
+
+<p-checkbox name="groupname" value="val1" [(ngModel)]="selectedValues"></p-checkbox>
+
+
+<input type="text" pInputText [placeholder]="name" [(ngModel)]="user.name"/>
+<input type="text" pInputText [placeholder]="age" [(ngModel)]="user.age"/>
+
+
+<h1>{{property}}</h1>
